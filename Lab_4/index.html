@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab_4</title>
+  </head>
+  <body>
+    <h1>Моя перша HTML-форма</h1>
+    <form action="https://httpbin.org/get" method="get">
+      <div class="form">
+        <label for="name-inf">Ім'я:</label>
+        <input
+          id="name-inf"
+          type="text"
+          name="user_name"
+          placeholder="ПІБ"
+        /><br />
+
+        <p>
+          <label for="date-inf">Дата народження:</label>
+          <input id="date-inf" type="date" name="user_birthday" />
+        </p>
+
+        <p>
+          <label for="email-inf">Імейл:</label>
+          <input
+            type="email"
+            id="email-inf"
+            name="user_email"
+            placeholder="Введіть адресу"
+          />
+        </p>
+
+        <p>
+          <label for="messenge-inf">Повідомлення:</label>
+          <textarea
+            name="messenge"
+            id="messenge-inf"
+            placeholder="Введіть текст"
+          ></textarea>
+        </p>
+
+        <h3>Ваші улюблені напої</h3>
+        <input type="checkbox" name="CheckBox_1" id="CheckBox_1ID" />
+        <label for="CheckBox_1">Plantation</label><br />
+
+        <input type="checkbox" name="CheckBox_2" id="CheckBox_2ID" />
+        <label for="CheckBox_2">Tanqueray</label><br />
+
+        <input type="checkbox" name="CheckBox_3" id="CheckBox_3ID" />
+        <label for="CheckBox_3">Fortaleza</label><br />
+
+        <input type="checkbox" name="CheckBox_4" id="CheckBox_4ID" />
+        <label for="CheckBox_4">Bulleit</label><br />
+
+        <br />
+
+        <h3>Скільки перездач у мене буде?</h3>
+        <input type="radio" id="myRating99" name="rate" />
+        <label for="myRating99">99</label><br />
+
+        <input type="radio" id="myRating6" name="rate" />
+        <label for="myRating6">6</label><br />
+
+        <input type="radio" id="myRating0" name="rate" />
+        <label for="myRating0">0</label><br />
+
+        <input type="submit" value="Надіслати" />
+        <input type="reset" value="Очистити" />
+      </div>
+    </form>
+
+    <br />
+
+    <picture>
+      <source
+        media="(max-width: 468px)"
+        srcset="https://cdn.pixabay.com/photo/2023/12/11/12/03/exit-sign-8443453_640.jpg"
+      />
+      <source
+        media="(max-width: 700px)"
+        srcset="https://cdn.pixabay.com/photo/2023/05/07/21/06/ai-generated-7977128_640.png"
+      />
+      <img
+        src="https://cdn.pixabay.com/photo/2023/12/11/12/03/exit-sign-8443453_640.jpg"
+        alt="Приклад зображення"
+        width="800"
+        height="700"
+      />
+    </picture>
+  </body>
+</html>
