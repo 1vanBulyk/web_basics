@@ -1,0 +1,72 @@
+h1 {
+    text-align: left; 
+    color:green
+}
+
+
+.list__item {
+    color: #ff0000; 
+}
+
+
+.list__item {
+    background-color: yellow; 
+    font-style: italic; 
+}
+
+
+ol {
+    border: 1px solid red; 
+}
+
+
+#lab-title {
+    color: green; 
+}
+
+
+a[href$=".pdf"] {
+    color: green; 
+    font-style: italic; 
+}
+
+
+a {
+    color: violet; 
+    text-decoration: none; 
+}
+
+
+ul ul {
+    text-transform: uppercase; 
+}
+
+p a {
+    color: magenta; 
+    background-color: mistyrose; 
+}
+
+.bold {
+    font-weight: bold; 
+}
+
+
+.bold {
+    text-transform: uppercase; 
+}
+
+.jjj { 
+    text-align: right;
+    border: 2px solid blue;
+    font-size: 20px;
+}
+
+
+* {
+    box-sizing: border-box; 
+}
+
+
+.list__item span {
+    background-color: yellow; 
+}
