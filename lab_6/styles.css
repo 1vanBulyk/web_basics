@@ -1,0 +1,100 @@
+ /* 1. Для всього документу встановіть наступний шрифт: назва serif, розмір 14px, міжрядковий інтервал 1.25, колір #777 */ 
+body { 
+  font-family: serif; 
+  font-size: 14px; 
+  line-height: 1.25; 
+  color: #777; 
+} 
+ 
+/* 2. Для всіх вкладених списків встановіть курсивний жирний шрифт */ 
+ul ul { 
+  font-weight: bold; 
+  font-style: italic; 
+} 
+ 
+/* 3. Встановіть на всі заголовки шрифт 'Cormorant Infant' (serif - у якості "підстраховки"), міжлітерний інтервал 0.5px і колір текста чорний, а також режим написання "capitalize" */ 
+h1, 
+h2 { 
+  font-family: "Cormorant Infant", serif; 
+  letter-spacing: 0.5px; 
+  color: black; 
+  text-transform: capitalize; 
+} 
+/* 4. Збільшіть заголовки першого рівня до 32px */ 
+h1 { 
+  font-size: 32px; 
+} 
+ 
+/* 5. Заголовки другого рівня зробіть 26px */ 
+h2 { 
+  font-size: 26px; 
+} 
+ 
+/* 6. Для другого абзацу за класом встановіть подвійний міжрядковий інтервал */ 
+.double-line { 
+  line-height: 2; 
+} 
+ 
+/* 7. Додайте клас mail-box до div з поштою та встановіть стилі */ 
+.mail-box { 
+  width: 150px; 
+  background-color: #e3fff6; 
+  border: 5px solid #c2e4c2; 
+  padding: 5px 20px; 
+} 
+ 
+/* 8. Виправте ситуацію і заставте блок стати 150 пікселя за допомогою box-sizing */ 
+.mail-box { 
+  box-sizing: border-box; 
+} 
+ 
+/* 9. Заставте текст пошти ламатись, щоб поміститись у блок */ 
+.mail-box a { 
+  word-wrap: break-word; 
+} 
+ 
+/* 10. Почніть емейл з нового рядку, використовуючи display: block */ 
+.mail-box a { 
+  display: block; 
+} 
+ 
+/* 11. Усі абзаци вирівняйте по ширині */ 
+p { 
+  text-align: justify; 
+} 
+ 
+/* 12. Списку наших переваг .our-adv встановіть стилі: 
+- фонове зображення, відступи, колір та шрифт */ 
+.our-adv { 
+  background-image: url("http://picsum.photos/id/357/700/400?blur=5"); 
+  padding-top: 30px; 
+  padding-bottom: 60px; 
+  color: white; 
+  font-size: 16px; 
+} 
+ 
+/* 13. Налаштуйте фон так, щоб він займав всю ширину та зберігав пропорції, завжди відображаючи центральну частину */ 
+.our-adv { 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+} 
+ 
+/* 14. Задайте заголовкам другого рівня відступи: верхній 60px, нижній 0px */ 
+h2 { 
+  margin-top: 60px; 
+  margin-bottom: 0; 
+} 
+ 
+/* Додаткове завдання */ 
+ 
+/* Відповідь на питання: У нас залишився відступ між заголовками та наступним блоком через властивість "margin-collapse", що об’єднує зовнішні відступи сусідніх елементів */ 
+ 
+/* Підключення нового шрифту для всього тексту, окрім заголовків. Для цього підключіть PT Sans Narrow або інший за вашим вибором */ 
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"); 
+/* СЛУЖБОВІ СТИЛІ - НЕ ЗВЕРТАТИ УВАГУ АЛЕ ТЕЖ СКОПІЮЙТЕ У CODEPEN/SANDBOX */ 
+.ruler { 
+  width: 150px; 
+  background-color: lime; 
+  text-align: center; 
+}
