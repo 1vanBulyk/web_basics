@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Checkpoint: початкова стадія */
+   
+  /* 1. */
+  .addresses-wrapper {
+    padding: 20px;
+  }
+  
+  .address__icon {
+    width: 70px;
+  }
+  
+  .address__status {
+    width: 32px;
+  }
+  
+  /* 2. */
+  .address {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-style: normal;
+    background-color:  #FFE4C4;
+  }
+  
+  /* Checkpoint: Задано початковий чорновий стиль блоку адреси */
+  
+  /* 3. */
+  .address__delete-btn {
+    background-color: #ff8e50;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* 4. */
+  .address__delete-btn:hover {
+    background-color: #ffd050;
+  }
+  
+  /* Checkpoint: Застилемо кнопку для видалення адреси */
+  
+  /* 5. */
+  .address {
+    position: relative;
+  }
+  
+  .address__delete-btn, .address__status {
+    position: absolute;
+    top: 10px;
+  }
+  
+  .address__delete-btn {
+    right: 10px;
+  }
+  
+  .address__status {
+    left: 10px;
+  }
+  
+  /* Checkpoint: Позиціювання кнопки видалення та іконки статусу */
+  
+  /* 6. */
+  .address__header {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* 7. */
+  .address__icon {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  /* Checkpoint: Позиціювання іконки адреси і заголовку */
+  
+  /* 8. */
+
+  
+  /* Checkpoint: Редагування HTML: 3 блоки і видалення зайвих статусів */
+  
+  /* 10. */
+  .addresses-wrapper {
+    display: flex;
+    gap: 1%;
+  }
+  
+  .address {
+
+    width: 32%;
+    margin: 1%;
+  }
+
+  /* 11. */
+  .address:first-child {
+    background-color: #F0FFC1;
+    margin-left: 0;
+  }
+  
+  .address:last-child {
+    background-color: #b6ffda;
+    margin-right: 0;
+  }
+  
+  /* Checkpoint: Розміщуємо адреси у один рядок */
+  
+  /* 12. */
+  .address:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* 13. */
+  
+  @media (max-width: 767px) {
+    .addresses-wrapper {
+      display: block; 
+    }
+  
+    .address {
+      width: 100%; 
+      margin: 0 0 20px 0 ; 
+    }
+  }
+  
+  /* Checkpoint: Виконане завдання (мобільний вигляд) */
+  /* Checkpoint: Виконане завдання (десктопний вигляд) */
+  
+    
+  
