@@ -4,7 +4,7 @@ i, em, span, b, strong {
 }
 
 ol, ul {
-    border: 1px solid lightcoral;
+    border: 1px solid red;
 }
 
 img {
@@ -12,7 +12,7 @@ img {
     max-width: 100%;
 }
 
-.jjj {
+.h1 {
     color:red;
     text-align: center;
 }

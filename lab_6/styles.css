@@ -63,9 +63,9 @@ p {
   text-align: justify; 
 } 
  
-/* 12. Списку наших переваг .our-adv встановіть стилі: 
+/* 12. Списку наших переваг .ourr встановіть стилі: 
 - фонове зображення, відступи, колір та шрифт */ 
-.our-adv { 
+.ourr { 
   background-image: url("http://picsum.photos/id/357/700/400?blur=5"); 
   padding-top: 30px; 
   padding-bottom: 60px; 
@@ -74,10 +74,10 @@ p {
 } 
  
 /* 13. Налаштуйте фон так, щоб він займав всю ширину та зберігав пропорції, завжди відображаючи центральну частину */ 
-.our-adv { 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+.ourr { 
+  background-size: cover; /*маштаб для
+  background-position: center; /*центрація
+  background-repeat: no-repeat; /*блок не ьільш за зобр
 } 
  
 /* 14. Задайте заголовкам другого рівня відступи: верхній 60px, нижній 0px */ 
@@ -93,7 +93,7 @@ h2 {
 /* Підключення нового шрифту для всього тексту, окрім заголовків. Для цього підключіть PT Sans Narrow або інший за вашим вибором */ 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"); 
 /* СЛУЖБОВІ СТИЛІ - НЕ ЗВЕРТАТИ УВАГУ АЛЕ ТЕЖ СКОПІЮЙТЕ У CODEPEN/SANDBOX */ 
-.ruler { 
+.rgb { 
   width: 150px; 
   background-color: lime; 
   text-align: center; 
